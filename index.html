@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson16</title>
+    <style>
+       form{
+				width: 500px;
+				background-color: rgba(48, 107, 215, 0.799);
+				height:300px;
+			}
+			 h1{
+				color: white;
+				text-align: center;
+			 }
+             input,label,button{
+             display:block;
+             
+             }
+             label{
+                color: azure;
+                margin-left: 200px;
+             }
+             .password,select,button{
+                margin-left: 200px;
+                margin-top: 20px;
+             }
+             button{
+                width: 100px;
+                color:rgb(94, 119, 244);
+                font-size: 20px;
+                cursor: pointer;
+                transition: 2s;
+                border: none;
+                background-color: rgb(146, 179, 223);
+             }
+             button:hover{
+                border-radius: 12px;
+             }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Fill out</h1>  
+        <label for="">
+            Name
+            <input type="name">
+        </label>
+        <label for="">
+            Email
+            <input type="email">
+        </label>
+    
+          <input class="password" placeholder="Enter your password" type="password"/>
+           <label for="">Choose your car</label>
+           <select name="choose your car" id="">
+            <optgroup label="German cars">
+                <option value="">BMW</option>
+                <option value="">AUDI</option>
+                <option value="">Mercedes</option>
+            </optgroup>
+            <optgroup label="Italian cars">
+                <option value="">Lamborgini</option>
+                <option value="">Ferrari</option>
+            </optgroup>
+           </select>
+           <button>send</button>
+       </form>
+     
+    
+</body>
+</html>
